@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Inter-sm;
+    src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+    font-family: Inter-sm !important;
+}
+
+.main_title {
+    color: #000000;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 6.25rem;
+    margin-left: 3.313rem;
+}
+
+.managment{
+    margin-bottom: 3.125rem;
+}
+
+.about_employe {
+    margin-top: 3.32rem;
+    margin-left: 6.25rem;
+    margin-bottom: 1.875rem;
+    gap: 3.75rem;
+}
+
+.images {
+    width: 258px;
+}
+
+.employe {
+    gap: 20px;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.reference_part {
+    gap: 20px;
+}
+
+.about_info {
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.about {
+    font-weight: 400;
+    font-style: medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.experience {
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 30px; 
+    margin-bottom: 20px;  
+}
+
+.expirence_date{
+    row-gap: 20px;
+}
+
+.place_work {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 12.5rem;
+}
+
+.line{
+    border: 5px solid #00000033;
+    margin: 2.5rem 5.75rem 3.75rem 6.25rem;
+}

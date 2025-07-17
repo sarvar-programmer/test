@@ -5,7 +5,7 @@ export default function Home() {
   
     return (
       <>
-       <Carusel/>
+       {/* <Carusel/> */}
         {/* <New/> */}
       </>
     )

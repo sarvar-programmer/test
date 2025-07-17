@@ -24,7 +24,7 @@ export default function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav ">
                         <Nav className=" nav_links">
-                            <Nav.Link href="#home" className="text-white  home" as={Link} to="/">{t.home}</Nav.Link>
+                            <Nav.Link href="#home" className="text-white home" as={Link} to="/">{t.home}</Nav.Link>
                             <Nav.Link href="#link" className="text-white" as={Link} to="/news">{t.news}
                             </Nav.Link>
                             <Nav.Link href="#link" className="text-white" as={Link} to="/books">{t.books}</Nav.Link>

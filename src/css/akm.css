@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Inter-sm;
+    src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+    font-family: Inter-sm !important;
+}
+
+.organization_name{
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    text-align: center !important;
+    margin-top: 6.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.akm {
+    width: 100%;
+}
+
+.activity {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 1.88rem 6.25rem;
+}
+
+.library_column{
+    margin-left: 6.25rem;
+}
+
+.library_column img {
+    width: 34.44rem;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.info_library {
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.library_section {
+    font-weight: 400;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 6.25rem;
+}
+
+.line{
+    border: 5px solid #00000033;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.library_about{
+    row-gap: 10px !important;
+    margin-left: 6.25rem;
+}
+
+.about_library{
+font-weight: 600;
+font-style: Bold;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+}
+
+.room{
+    margin-bottom: 50px;
+    margin-left: 6.25rem;
+    width: 1241px;
+}
+
+.room img{
+    width: 38.44rem;
+}
+
+.room img:first-child{
+    margin-right: 10px;
+}
+

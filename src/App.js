@@ -20,7 +20,7 @@ export default function App() {
         {/* <Route path="/akm" element={<AKM />} /> */}
         {/* <Route path="/rahbariat" element={<Rahbariat />} /> */}
       </Routes>
-      {/* <Contact/> */}
+      <Contact/>
       {/* <Footer/> */}
      
     </>

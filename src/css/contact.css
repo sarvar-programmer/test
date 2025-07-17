@@ -1,0 +1,88 @@
+ @font-face {
+  font-family: Inter-sm;
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+body {
+  font-family: Inter-sm !important;
+}
+
+.basic{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+
+.information_input {
+  /* width: 577px; */
+  background: #1E3A8A;
+  border-radius: 10px;
+  margin-left: 22px;
+}
+
+.right_part{
+  box-sizing: border-box !important;
+}
+
+.library_location, .right_part{
+  box-sizing: border-box;
+}
+
+.information {
+  /* width: 381px; */
+  padding-top: 20px !important;
+  /* margin-left: 98px; */
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  margin-block-start: 0em !important;
+  margin-block-end: 0em !important;
+}
+
+.reference_point {
+  /* width: 329px; */
+  /* margin: 10px 124px; */
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 0%;
+} 
+
+.name_inp {
+  /* width: 444px; */
+  height: 47px;
+  margin: 10px 67px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.phone_inp {
+  /* width: 444px; */
+  height: 47px;
+  margin: 10px 67px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.question_inp {
+  /* width: 444px; */
+  height: 77px;
+  margin: 10px 67px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+
+}
+
+.send_btn {
+  /* width: 444px; */
+  height: 47px;
+  margin: 10px 67px 20px 66px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+} 

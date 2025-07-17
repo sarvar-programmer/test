@@ -13,11 +13,10 @@ body {
 
 .custom {
   /* margin-left: 6.25rem !important; */
-  /* padding: 27px 100px 20px 100px; */
 }
 
 .brand_logo {
-  /* width: 6.97rem; */
+  width: 6.97rem;
   margin-top: 27px;
 }
 
@@ -35,6 +34,10 @@ body {
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
+}
+
+.home{
+  width: 9.12rem;
 }
 
 .infos {
@@ -64,7 +67,7 @@ body {
 }
 
 .languages {
-  /* width: 212px; */
+  width: 212px;
   border: 1px solid #ffffff;
   border-radius: 10px;
   padding: 15.5px;

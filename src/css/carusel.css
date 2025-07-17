@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: Inter-sm;
   src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
 }
@@ -7,7 +7,7 @@
 } 
 
 .hero{
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
   flex-direction: column;
   justify-content: center;
@@ -25,7 +25,7 @@
 }
  
 .sub_title{
-  /* margin-left: 5.75rem; */
+  margin-left: 5.75rem;
   font-weight: 700;
   font-size: 48px;
   line-height: 100%;
@@ -37,13 +37,13 @@
   3px  3px 0 #098C81;
 }
 
-/* .layout{
+.layout{
   padding-left: 2.5rem;
   margin-top: 2.5rem;
-} */
+}
 
 .motto{
-  /* margin-left: 32px; */
+  margin-left: 32px;
   text-align: center;
   font-weight: 700;
   font-size: 3rem;   
@@ -57,5 +57,5 @@
 }
  
 .right{
-  /* margin-left: 35rem; */
-}
+  margin-left: 35rem;
+} */

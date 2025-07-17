@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Inter-sm;
+  src: url("../font/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+body{
+  font-family: Inter-sm !important;
+} 
+
+.footer{
+  background-color: #1E3A8A;
+}
+
+.msg_title{
+  width: 218px;
+  margin: 47px 1174px 25px 100px;
+  font-weight: 700;
+  font-size: 20px   ;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+ 
+.msg_info{
+  width: 314px;
+  margin: 0 188px 54px 100px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.messengers{
+  width: 350px;
+  gap: 25px;
+  margin: 0px 152px 54px 100px;
+}
+.msg_icon{
+  width: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_wrapper {
+  gap: 25px;
+  display: flex;
+}
+
+.pages{
+  margin-left: 100px;
+  margin-right: 52px;
+}
+
+.links_footer:first-child{
+  margin-top: 47px;
+}
+.links_footer {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  margin-top: 29px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.con_title{
+  margin-top: 47px;
+  margin-bottom: 1.75rem;
+  font-weight: 400;
+  font-size: 24px !important;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.con_icon{
+  width: 340px;
+  gap: 20px;
+  row-gap: 36px;
+}
+
+.icons{
+  width: 36px;
+  height: 36px;
+  margin-bottom: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+
+
+.fahome{
+  width: 20px;
+  margin: 9px 8px ;
+}
+
+.adres_lib{
+  margin-top: -6px;
+}
+
+.faphone{
+  width: 16px;
+  margin: 10px;
+}
+
+.phone_sec{
+  margin-top: 5px;
+}
+
+.envelope{
+  width: 18px;
+  margin: 10px 9px;
+}
+
+.email{
+  margin-top: 5px;
+}

@@ -24,7 +24,7 @@ export default function AcademyIntro() {
   return (
     <Container fluid className="hero">
       <Row style={{ marginLeft: "5px" }} className="my_row">
-        <Col md={6} sm={6} xs={12} style={{ paddingRight: "6.5px" }}>
+        <Col md={6} sm={12} xs={12} style={{ paddingRight: "6.5px" }}>
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -47,7 +47,7 @@ export default function AcademyIntro() {
           </motion.div>
         </Col>
 
-        <Col md={6} sm={6} xs={12} style={{ paddingLeft: "16.5px" }}>
+        <Col md={6} sm={12} xs={12} style={{ paddingLeft: "16.5px" }}>
           <motion.img
             src={Academy}
             alt="academy room"

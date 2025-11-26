@@ -1,0 +1,133 @@
+@font-face {
+  font-family: JejuGothic;
+  src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.form_col {
+  margin-top: 107px;
+  padding-left: 80px !important;
+}
+
+.form_div {
+  font-weight: JejuGothic !important;
+  width: 100%;
+  border: 1px solid #bcbbbb;
+  padding: 30px 80px 20px 80px !important;
+  border-radius: 15px;
+}
+
+.login_title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.login_phone {
+  margin-top: 20px;
+}
+.phone_inp {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.phone_inp,
+.password_inp {
+  border-bottom: 1.5px solid #8f8f8f !important;
+  transition: border-color 0.3s ease;
+  padding-left: 0;
+}
+
+.login_password {
+  margin-top: 32px;
+}
+
+.password_inp {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+input[type="password"] {
+  font-family: Arial, sans-serif !important;
+}
+
+/* Input holatlari */
+.phone_inp,
+.password_inp {
+  border-bottom: 2px solid #ccc !important;
+  box-shadow: none !important;
+  transition: 0.3s;
+}
+
+/* Xato holati */
+.error-border {
+  border-bottom: 2px solid #e63946 !important;
+  box-shadow: none !important;
+}
+
+/* To‘g‘ri holat */
+.success-border {
+  border-bottom: 2px solid #22ee4f !important;
+  box-shadow: none !important;
+}
+
+/* Xato yozuvi */
+.text-danger.small {
+  font-size: 10px;
+  margin-top: 4px;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.login_btn {
+  margin-top: 25px;
+  padding: 18px 121px 18px 121px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  background-color: #22ee4f;
+  border: none;
+}
+
+.recovery {
+  margin-top: 15px;
+  margin-bottom: 37px !important;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.new_user {
+  margin-bottom: 15px !important;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 00;
+}
+.signup {
+  font-family: "Times New Roman" !important;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  color: #22ee4f;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.signup:hover {
+  color: var(--bs-success);
+}
+
+.part_two {
+  padding-top: 125px;
+}
+
+.login_img {
+  width: 50%;
+}

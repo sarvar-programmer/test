@@ -1,0 +1,83 @@
+.course-details-container {
+  padding: 20px 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.back-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.back-icon {
+  margin-right: 10px;
+}
+
+.back-text {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.course-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.modules-wrapper {
+  width: 100%;
+  max-width: 900px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+}
+
+.module-card {
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.module-card:last-child {
+  border-bottom: none;
+}
+
+.module-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.module-index {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.play-icon {
+  color: #ff8c24;
+  font-size: 22px;
+}
+
+.module-name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.module-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.stats-title {
+  font-size: 13px;
+  color: #707070;
+  margin: 0;
+}
+
+.stats-value {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 3px;
+}

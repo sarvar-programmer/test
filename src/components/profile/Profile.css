@@ -1,0 +1,91 @@
+.profile-container {
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+  padding: 20px 15px 20px 15px;
+  height: 100vh;
+  position: relative;
+}
+
+.scrol_left{
+  position: fixed;
+  border-right: 3px solid #999;
+  height: 100vh;
+  padding-right: 1rem;
+}
+
+.sidebar h6{
+  margin-bottom: 0 !important;
+  margin-left: 1rem;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  width: 60px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+
+.menu{
+  padding: 20px 15px;
+}
+
+.menu p {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.menu p.active-menu {
+  color: #00c853;
+  font-weight: 600;
+}
+
+.active-menu span{
+  color: #999;
+}
+
+.active-menu span.changeColor{
+  color: black;
+}
+
+.main-content {
+  padding: 0px 40px 20px 10px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 40px;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  padding: 20px 0 20px 0;
+  background-color: white;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.status-dot {
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+.courses{
+  margin-top: 2rem;
+}

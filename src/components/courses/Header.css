@@ -1,0 +1,31 @@
+@font-face {
+    font-family: JejuGothic;
+    src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.img-c-h{
+    border-radius: 50%;
+    border: 2px solid #1191ED;
+    width: 84px;
+}
+
+.header-custom{
+    font-family: JejuGothic !important;
+}
+
+.logo_name{
+    font-size: 40px;
+    color: #504E49;
+}
+/* this course */
+.about-course{
+    color: #767171;
+    font-size: 30px;
+    margin-right: 6em !important;
+}
+
+.access{
+    font-size: 30px;
+}
+
+/* 890 */

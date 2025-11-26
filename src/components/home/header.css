@@ -1,0 +1,203 @@
+@font-face {
+  font-family: JejuGothic;
+  src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.header {
+  font-family: JejuGothic !important;
+  padding-bottom: 8px !important;
+}
+
+.logo {
+  width: 84px !important;
+  border: 2px solid #1191ed;
+  margin-left: 15px;
+}
+
+.brand_name {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-left: 1.5em;
+}
+
+.courses {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 10px !important;
+  margin-left: 47px;
+}
+
+.chevron {
+  margin-left: 9px;
+  font-size: 1em;
+  margin-top: 1.5px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.collapse_card {
+  position: fixed;
+  top: 117px !important;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1010;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.license {
+  font-weight: 400;
+  font-size: 1.67em;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #e79903 !important;
+  margin-top: 10px;
+  position: relative;
+}
+
+.license::after {
+  content: "";
+  position: absolute;
+  left: 13px;
+  top: 30px;
+  width: 80%;
+  height: 1px;
+  background-color: #e79903;
+}
+
+.phone_part {
+  border: 1px solid #e79903;
+  border-radius: 10px;
+  color: #e79903;
+  margin-left: 21px;
+  margin-top: 10px;
+  padding: 20px 16px 14px 19px;
+  gap: 8px;
+}
+
+.phone_icon {
+  font-size: 26px;
+}
+
+.phone {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #e79903;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .logo {
+    width: 44px !important;
+    border: 2px solid #1191ed;
+      margin-top: 0;
+    margin-left: -20px !important;
+  }
+
+  .brand_name {
+    font-size: 30px;
+    margin-top: 0;
+    margin-left: 5px !important;
+  }
+
+  .courses {
+    font-size: 24px !important;
+    margin-left: 0 !important;
+    margin-top: -10px !important;
+    justify-content: center;
+  }
+  .chevron {
+    margin-bottom: 6px !important;
+  }
+
+  
+  .license {
+    font-size: 20px !important;
+    margin-top: 0 !important;
+  }
+
+  .phone_part {
+    margin-left: 15px !important;
+    margin-top: 25px;
+    padding: 17px 11px 9px 14px;
+    gap: 4px;
+    border-radius: 10px;
+    margin-bottom: 19px !important;
+  }
+
+  .phone_icon {
+    font-size: 20px !important;
+  }
+
+  .phone {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .header {
+    /* padding-bottom: 10px !important; */
+  }
+
+  .logo {
+    width: 44px !important;
+    border-width: 2px ;
+    margin-top: 0px;
+    margin-left: -10px;
+  }
+
+  .brand_name {
+    font-size: 25px !important;
+    margin-top: 2px !important;
+    margin-left: 3px !important;
+  }
+
+  .courses {
+    font-size: 14px !important;
+    margin-left: 0 !important;
+    margin-bottom: -15px !important;
+    margin-top: 0px !important;
+    justify-content: center;
+  }
+  .chevron {
+    margin-bottom: 3px !important;
+  }
+
+  .license {
+    font-size: 12px !important;
+  }
+
+  .license::after {
+    left: 8px;
+    top: 15px;
+    width: 70%;
+    height: 1px;
+  }
+
+  .phone_part {
+    margin-left: 10px !important;
+    margin-top: 15px;
+    padding: 7px 6px 4px 9px;
+    gap: 4px;
+    border-radius: 5px;
+    margin-bottom: 10px !important;
+  }
+
+  .phone_icon {
+    font-size: 10px !important;
+  }
+
+  .phone {
+    font-size: 10px !important;
+  }
+}

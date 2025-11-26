@@ -1,0 +1,132 @@
+@font-face {
+  font-family: JejuGothic;
+  src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.footer {
+  font-family: JejuGothic !important;
+  padding: 53px 77px 53px 69px;
+  background-color: #d9d9d966;
+  margin-top: 41px;
+}
+
+.footer_logo {
+  width: 84px;
+  margin-top: 1px;
+  border: 3px solid #1191ed;
+}
+
+.footer_content {
+  margin-left: 56px;
+}
+
+.footer_content p:first-child {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #767171;
+}
+
+.footer_content p:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 25px;
+  color: #767171;
+}
+
+.social_network {
+  font-size: 50px !important;
+  vertical-align: middle;
+}
+
+.instagram {
+  margin-top: 6px;
+  width: 42px;
+  height: 42px;
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .footer {
+    padding: 13px 37px 23px 25px !important;
+    margin-top: 11px !important;
+  }
+
+  .footer_logo {
+    width: 44px !important;
+    border-width: 2px;
+  }
+
+  .footer_content {
+    margin-left: 0 !important;
+    font-size: 20px;
+    padding-top: 10px !important;
+  }
+
+  .footer_content p {
+    font-size: 14px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .footer_content p:last-child {
+    margin-top: 0 !important;
+  }
+
+  .social_network {
+    font-size: 20px !important;
+  }
+
+  .instagram {
+    width: 20px;
+    height: 20px;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .footer {
+    padding: 13px 0 0 19px;
+    margin-top: 10px;
+  }
+
+  .footer_logo {
+    width: 44px !important;
+    border-width: 2px;
+    margin-top: -20px !important;
+  }
+
+  .footer_content {
+    margin-left: 0;
+  }
+
+  .footer_content p:first-child {
+    font-size: 15px;
+  }
+
+  .footer_content p:last-child {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+
+  .icons {
+    margin-left: 11px;
+    margin-top: 0 !important;
+  }
+
+  .social_network {
+    font-size: 15px !important;
+    vertical-align: middle;
+  }
+
+  .instagram {
+    margin-top: 0;
+    width: 15px;
+    height: 15px;
+  }
+}

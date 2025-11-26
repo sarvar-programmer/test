@@ -1,0 +1,43 @@
+.course-card {
+  border: 1px solid #00c853;
+  border-radius: 8px;
+  padding: 20px 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #fff;
+}
+
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-circle {
+  width: 200px;
+  height: 200px;
+  background-color: #09ff05;
+  border-radius: 50%;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.course-circle.completed {
+  background-color: #bdbdbd; /* tugagan kurslar kulrang bo'ladi */
+  color: #333;
+}
+
+.course-btn {
+  color: #00c853;
+  font-weight: 500;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.course-btn:hover {
+  text-decoration: underline;
+  color: #009624;
+}

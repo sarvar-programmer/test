@@ -1,0 +1,237 @@
+.hero {
+  padding-top: 130px;
+  padding-left: 73px;
+  padding-right: 72px;
+}
+
+.intro {
+  width: 97%;
+  height: 100vh;
+  background-color: #e799031a;
+  margin-top: 55px;
+  padding-top: 45px;
+  padding-left: 24px;
+  padding-bottom: 31px;
+  border-radius: 20px;
+}
+
+.intro_title {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #504e49;
+}
+
+.academy_description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 32px;
+  color: #767171;
+}
+
+.workflow {
+  width: 275px;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+
+.room {
+  margin-top: 55px;
+  width: 99%;
+  border-radius: 5px;
+  height: 100vh;
+}
+
+.academy_this {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 69px;
+}
+
+.definitions_row {
+  margin-top: 63px;
+  row-gap: 59px !important;
+  padding-left: 33px;
+}
+
+.definitions_col:nth-child(2),
+.definitions_col:nth-child(4) {
+  padding-left: 24px !important;
+}
+
+.definitions_col {
+  padding-left: 10px;
+}
+
+.definition {
+  background-color: #d9d9d94d;
+  width: 95%;
+  min-height: 269px;
+  padding-top: 23px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  padding-left: 37px;
+  border: none;
+  cursor: pointer;
+}
+
+.definition:hover {
+  box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.circle {
+  width: 73px;
+  height: 73px;
+  background-color: #0e962c;
+  border-radius: 50%;
+}
+
+.definition_text {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #767171;
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .hero {
+    padding: 50px 7px 10px 6px !important;
+  }
+
+  .intro {
+    width: 95%;
+    height: auto !important;
+    padding: 10px 10px 30px 25px !important;
+    padding-bottom: 11px;
+    border-radius: 10px;
+    padding-right: 10px !important;
+  }
+
+  .intro_title {
+    font-size: 30px;
+  }
+
+  .academy_description {
+    font-size: 12px;
+  }
+
+  .workflow {
+    width: 50%;
+  }
+
+  .room {
+    width: 95%;
+    height: 300px !important;
+  }
+
+  .academy_this {
+    font-size: 34px;
+    margin-top: 39px;
+  }
+
+  .definitions_row {
+    margin-top: 33px;
+    row-gap: 29px !important;
+    padding-left: 18px !important;
+  }
+
+  .definitions_col {
+    padding-left: 20px;
+  }
+
+  .definitions_col:nth-child(2),
+  .definitions_col:nth-child(4) {
+    padding-left: 0px !important;
+  }
+
+  .definition {
+    width: 99% !important;
+    padding-top: 13px;
+    border-radius: 10px;
+    min-height: auto;
+    padding-bottom: 13px;
+  }
+
+  .circle {
+    width: 43px;
+    height: 43px;
+  }
+
+  .definition_text {
+    font-size: 22px;
+    margin-top: 10px;
+    padding-left: -10px !important;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .hero {
+    padding: 20px 7px 5px 6px !important;
+  }
+
+  .intro {
+    width: 95%;
+    height: auto !important;
+    padding: 10px 5px 15px 10px !important;
+    border-radius: 10px;
+  }
+
+  .intro_title {
+    font-size: 35px;
+  }
+
+  .academy_description {
+    font-size: 13px;
+  }
+
+  .workflow {
+    width: 70% !important;
+  }
+
+  .room {
+    margin-top: 20px !important;
+    width: 95%;
+    height: auto !important;
+  }
+
+  .academy_this {
+    font-size: 24px;
+    margin-top: 19px;
+  }
+
+  .definitions_row {
+    margin-top: 19px;
+    padding-left: 23px;
+    row-gap: 19px !important;
+  }
+
+  .definitions_col:nth-child(2),
+  .definitions_col:nth-child(4) {
+    padding-left: 13px !important;
+  }
+
+  .definition {
+    width: 95%;
+    border-radius: 5px;
+    min-height: auto !important;
+    padding-top: 10px;
+  }
+
+  .circle {
+    width: 33px;
+    height: 33px;
+  }
+
+  .definition_text {
+    margin-top: 5px;
+    font-size: 16px;
+    margin-left: -10px;
+  }
+}

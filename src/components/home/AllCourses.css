@@ -1,0 +1,123 @@
+@font-face {
+  font-family: JejuGothic;
+  src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.allcourses {
+  margin-top: 59px;
+  font-family: JejuGothic !important;
+  padding-left: 69px;
+}
+
+.allcourses_title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-bottom: 44px;
+}
+
+.course_col {
+  margin-bottom: 51px;
+}
+
+.cards {
+  padding-left: 28px !important;
+  width: 90%;
+  border: none;
+  background-color: #d9d9d94d;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.cards:hover {
+  box-shadow: 0 20px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.star {
+  font-size: 100px;
+  color: #faff00;
+}
+
+.course_title {
+  font-weight: Weight Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #22ee4f;
+  margin-top: 21px;
+}
+
+.duration {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+  margin-top: 49px;
+  margin-right: 28px;
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .allcourses {
+    margin-top: 20px !important;
+    padding-left: 39px;
+  }
+
+  .allcourses_title {
+    font-size: 34px;
+    margin-bottom: 24px !important;
+  }
+
+  .course_col {
+    margin-bottom: 21px;
+  }
+
+  .star {
+    font-size: 80px;
+  }
+
+  .course_title {
+    font-size: 22px;
+  }
+
+  .duration {
+    font-size: 22px !important;
+    margin-top: 29px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .allcourses {
+    margin-top: 15px;
+    padding-left: 29px;
+  }
+
+  .allcourses_title {
+    font-size: 34px;
+    margin-bottom: 16px !important;
+  }
+
+  .course_col {
+    margin-bottom: 16px;
+  }
+
+  .star {
+    font-size: 50px;
+  }
+
+  .cards {
+    width: 95%;
+    padding: 10px !important;
+  }
+
+  .course_title {
+    font-size: 20px;
+  }
+
+  .duration {
+    font-size: 20px !important;
+    margin-top: 0 !important;
+    margin-right: 14px;
+  }
+}

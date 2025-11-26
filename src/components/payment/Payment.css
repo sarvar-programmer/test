@@ -1,0 +1,116 @@
+.payment-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.payment-wrapper {
+  width: 950px;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.left-panel {
+  border-right: 1px solid #e5e5e5;
+  padding-right: 35px;
+}
+
+.right-panel {
+  padding-left: 35px;
+}
+
+.payme-logo {
+  width: 90px;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #000;
+}
+
+.pay-box {
+  width: 160px;
+  height: 110px;
+  background-color: #00ff5e;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.qr-frame {
+  width: 110px;
+  height: 110px;
+  border: 2px solid #007bff;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-frame img {
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 15px;
+  color: #000;
+  margin: 0;
+  word-break: break-all;
+}
+
+.status-badge {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 12px;
+}
+
+.date {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 6px;
+}
+
+.sum {
+  font-size: 15px;
+  color: #111;
+  font-weight: 500;
+}
+
+/* O‘ng panel (forma) */
+.input {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.exp {
+  max-width: 90px;
+}
+
+.card-icon {
+  background-color: #f1f1f1;
+  border-right: none;
+}
+
+.btn-login,
+.btn-pay {
+  background-color: #009cf0;
+  border: none;
+  font-weight: 600;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.btn-login:hover,
+.btn-pay:hover {
+  background-color: #007ed1;
+}

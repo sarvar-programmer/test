@@ -1,0 +1,94 @@
+@font-face {
+  font-family: JejuGothic;
+  src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.signup-page {
+  padding-top: 7px !important;
+  font-family: JejuGothic !important;
+  padding-bottom: 10px;
+}
+
+.form {
+  margin-top: 100px !important;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.registr_title {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+/* INPUT STYLING */
+.inputs {
+  margin-top: 15px !important;
+  position: relative;
+}
+
+.inputs input {
+  padding: 8px 0; /* yuqoriga va pastga barqaror padding */
+  border: none ;
+  border-radius: 0 !important;
+  border-bottom: 2px solid #8f8f8f; /* boshlang‘ich kulrang border */
+  box-sizing: border-box; /* padding + border balandlikka qo‘shiladi */
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  box-shadow: none !important;
+  transition: border-color 0.3s ease;
+}
+
+/* Parol va tasdiq ikonalar pozitsiyasi */
+.inputs.position-relative span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+/* Checkbox */
+.form-check-input {
+  border: 1px solid black;
+}
+
+.term {
+  color: #22ee4f;
+}
+
+/* Button */
+.registr_btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  padding: 17px 20px 15px 20px !important;
+  background-color: #22ee4f;
+  border: none;
+}
+
+/* Linklar */
+.access_link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #22ee4f;
+}
+
+.access_link:hover {
+  color: var(--bs-success);
+}
+
+/* Tasvir */
+.signup_image {
+  width: 50%;
+}
+
+input[type="password"] {
+  font-family: Arial, sans-serif !important;
+}

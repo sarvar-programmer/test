@@ -1,0 +1,64 @@
+@font-face {
+  font-family: JejuGothic;
+  src: url("../../assets/fonts/jejugothic-regular.woff");
+}
+
+.header_courses {
+  /* margin-top: -16px; */
+  background-color: #ffffff;
+  width: 100%;
+  padding-left: 57px;
+  font-family: JejuGothic;
+  border-bottom: 1px solid #838383;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.course {
+  padding-top: 22px;
+  cursor: pointer;
+}
+
+.course img {
+  width: 90px;
+  margin-right: 26px;
+}
+
+.course p:first-child {
+  margin-top: 9px;
+  display: inline-block;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.course p:last-child {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991.9px) {
+  .header_courses {
+  padding-left: 17px !important;
+  /* border-bottom-left-radius: 20px; */
+  /* border-bottom-right-radius: 20px; */
+}
+
+
+.header_courses .course img {
+  width: 50px !important;
+}
+.course {
+  /* padding-top: 18px !important; */
+}
+
+.course img {
+  width: 60px !important;
+  /* margin-right: 26px; */
+}
+}
